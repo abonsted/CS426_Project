@@ -2,6 +2,17 @@
 ## Project Description
 This project analyzes play-by-play data from the NFL to see if we're able to build a model that predicts the offensive play call result based on the game situation (downs, distance, time remaining) and offensive and defensive personnel.
 
+<b>Feature Variables</b>
+- Yardline
+- Downs
+- Distance
+- Time remaining in quarter, half, game
+- Quarter
+- Score Differential
+- Offensive Formation/Personnel
+- Defensive Formation
+
+<b>Target Variable</b>
 The play call result is either a pass or run.
 - Pass: Short, Medium, or Long AND Left, Middle, or Right
 - Rush: Left or Right AND End, Tackle, Guard 
